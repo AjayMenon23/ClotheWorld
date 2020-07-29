@@ -8,9 +8,8 @@ export const addItemtoCart =(cartItems, cartItemToAdd)=>{
             {...cartItem, quantity: cartItem.quantity +1
             }
             :
-            {
-                cartItem
-            })
+             cartItem
+            )
     }
-    return [...cartItems, {...cartItems , quantity:1}]
+    return [...cartItems, {...cartItemToAdd , quantity:1}]
 }
