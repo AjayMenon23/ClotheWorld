@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import HomePage from  './pages/homepage/homepage.component';
-import {BrowserRouter,Switch,Route,Redirect,withRouter} from 'react-router-dom';
+import {Switch,Route,Redirect,withRouter} from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component'
 import Header from './components/Header/header.component'
 import SignInSignUpPage from './pages/sign-in-and-sign-out/sign-in-sign-up.component.jsx'
